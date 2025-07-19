@@ -1,42 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .centralize-content {
+        @apply flex justify-center items-center
+    }
+    .content-with-3 {
+        @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 py-10
+    }
+    .card-style {
+        @apply flex justify-start items-center flex-col shadow py-10 px-5 col-span-1 text-center gap-5 rounded-xl
+    }
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --main-color: #fccd05;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+li {
+    list-style: none;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.container {
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.mobile-navbar li {
+    padding-bottom: 20px;
+}
+.mobile-navbar li:not(:last-child) {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.203);
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+
+@media (width < 600px) {
+    .container {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
