@@ -1,5 +1,3 @@
-'use client'
-
 
 import Comments from "@/components/Comments";
 import Features from "@/components/Features";
