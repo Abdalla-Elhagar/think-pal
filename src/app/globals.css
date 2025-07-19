@@ -28,19 +28,3 @@ li {
     padding-left: 40px;
     padding-right: 40px;
 }
-
-.mobile-navbar li {
-    padding-bottom: 20px;
-}
-.mobile-navbar li:not(:last-child) {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.203);
-}
-
-
-@media (width < 600px) {
-    .container {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-}
