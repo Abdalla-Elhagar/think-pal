@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { Eye, EyeOff } from 'lucide-react';
+import Link from 'next/link';
 
 export default function SignUp() {
   const [formData, setFormData] = useState({
@@ -54,16 +55,17 @@ export default function SignUp() {
 
           <div className="md:col-span-2">
             <button
+            aria-label='Sign Up'
               type="submit"
-              className="w-full bg-[#fccd05] hover:bg-[#e6b800] text-white font-semibold py-3 px-6 rounded-lg text-lg transition"
+              className="w-full bg-min hover:bg-[#e6b800] text-white font-semibold py-3 px-6 rounded-lg text-lg transition"
             >
               Sign Up
             </button>
             <p className="text-center text-sm text-gray-600 mt-4">
               Already have an account?{' '}
-              <a href="/login" className="font-medium text-black hover:underline">
+              <Link aria-label='Log in' href="/login" className="font-medium text-black hover:underline">
                 Log in
-              </a>
+              </Link>
             </p>
           </div>
         </form>
