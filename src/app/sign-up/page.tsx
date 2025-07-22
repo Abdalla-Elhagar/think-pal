@@ -57,7 +57,7 @@ export default function SignUp() {
             <button
             aria-label='Sign Up'
               type="submit"
-              className="w-full bg-min hover:bg-[#e6b800] text-white font-semibold py-3 px-6 rounded-lg text-lg transition"
+              className="w-full bg-main hover:bg-[#e6b800] text-white font-semibold py-3 px-6 rounded-lg text-lg transition"
             >
               Sign Up
             </button>
