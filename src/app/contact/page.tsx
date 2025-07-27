@@ -30,7 +30,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <div className="min-h-screen bg-secondary py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
           {/* Header */}
@@ -56,7 +56,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent transition-all duration-300 outline-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-main focus:border-transparent transition-all duration-300 outline-none"
                   placeholder="Enter your full name"
                 />
               </div>
@@ -73,7 +73,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent transition-all duration-300 outline-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-main focus:border-transparent transition-all duration-300 outline-none"
                   placeholder="Enter your email address"
                 />
               </div>
@@ -90,7 +90,7 @@ export default function Contact() {
                   onChange={handleInputChange}
                   required
                   rows={6}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent transition-all duration-300 outline-none resize-vertical"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-main focus:border-transparent transition-all duration-300 outline-none resize-vertical"
                   placeholder="Enter your message here..."
                 />
               </div>
@@ -99,7 +99,7 @@ export default function Contact() {
               <div className="pt-4">
                 <button
                   type="submit"
-                  className="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-4 px-6 rounded-lg transition-all duration-300 hover:scale-105 shadow-md hover:shadow-lg"
+                  className="w-full bg-main hover:bg-yellow-500 text-black font-bold py-4 px-6 rounded-lg transition-all duration-300 hover:scale-105 shadow-md hover:shadow-lg"
                   style={{ backgroundColor: 'var(--main-color)' }}
                 >
                   Send Message
