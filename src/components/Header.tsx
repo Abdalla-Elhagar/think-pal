@@ -13,7 +13,7 @@ function Header() {
         <Logo />
 
         {/* Navbar */}
-        <NavBar styles="hidden lg:flex gap-10 text-lg" />
+        <NavBar handleClick={()=>{}} styles="hidden lg:flex gap-10 text-lg" />
 
         {/* start button */}
         <div className="flex gap-4">
