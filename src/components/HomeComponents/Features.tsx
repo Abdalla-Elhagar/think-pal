@@ -1,5 +1,5 @@
 import React from "react";
-import SectionTitles from "./SectionTitles";
+import SectionTitles from "../SectionTitles";
 import { PiGraduationCap } from "react-icons/pi";
 import { BiBarChart } from "react-icons/bi";
 import { PiRobot } from "react-icons/pi";

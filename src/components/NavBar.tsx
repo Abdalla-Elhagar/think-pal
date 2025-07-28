@@ -40,7 +40,7 @@ function NavBar({ styles,handleClick }: { styles: string,handleClick:any }) {
             transition={{ duration: 0.3 }}
             key={index}
           >
-            <Link onClick={handleClick} aria-label={ele.name} href={ele.link} className={`${ele.link === pathName ? "border-b-black border-b " : ""}`}>
+            <Link onClick={handleClick} aria-label={ele.name} href={ele.link} className={`${ele.link === pathName ? "border-b--main border-b text-main " : ""}`}>
               {ele.name}
             </Link>
           </motion.li>

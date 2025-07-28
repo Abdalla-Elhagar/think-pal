@@ -1,8 +1,8 @@
 import React from 'react'
-import SectionTitles from './SectionTitles'
-import profile1Image from '../../public/image/profile/profile1.webp'
-import profile2Image from '../../public/image/profile/profile2.webp'
-import profile3Image from '../../public/image/profile/profile3.webp'
+import SectionTitles from '../SectionTitles'
+import profile1Image from '../../../public/image/profile/profile1.webp'
+import profile2Image from '../../../public/image/profile/profile2.webp'
+import profile3Image from '../../../public/image/profile/profile3.webp'
 import CommentsCard, { commentsCardTypes } from './CommentsCard';
 
 const commentsCards:commentsCardTypes[] = [

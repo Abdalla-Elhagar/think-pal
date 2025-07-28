@@ -1,5 +1,5 @@
 import React from 'react'
-import MyLink from './MyLink'
+import MyLink from '../MyLink'
 
 function SignUpSection() {
   return (
