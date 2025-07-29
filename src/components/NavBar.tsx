@@ -28,7 +28,7 @@ export const navLinks: navLinksTypes[] = [
   },
 ];
 
-function NavBar({ styles,handleClick }: { styles: string,handleClick:any }) {
+function NavBar({ styles,handleClick }: { styles?: string,handleClick?:any }) {
 
   const pathName = usePathname()
   return (
