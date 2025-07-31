@@ -11,7 +11,7 @@ export default function OurStory () {
                 <Image src={ourStoryImage} alt="Our Mission Image" className='w-full rounded-xl' />
 
             </div>
-            <div className="text w-[500px]">
+            <div className="text w-full md:w-[500px]">
                 <h3 className='text-[30px] font-bold'>Our Story</h3>
                 <p>ThinkPal was founded in 2020 by a group of passionate educators and AI experts who recognized the immense potential of AI in shaping the future. Driven by a shared vision to democratize AI education, we embarked on a journey to create a platform that offers high-quality, accessible, and industry-relevant AI courses tailored to the unique needs of students in the region.</p>
             </div>
