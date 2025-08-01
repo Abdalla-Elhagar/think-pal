@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       colors: {
         main: '#fccd05',
-        secondary: '#f9fafc'
+        secondary: '#f9fafc',
+        orangeColor: "#ff6600"
       },
     },
   },

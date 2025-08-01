@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import MyLink from "./MyLink";
-import heroImage from "../../public/image/Landing.webp";
+import MyLink from "../MyLink";
+import heroImage from "../../../public/image/Landing.webp";
 import Image from "next/image";
 
 function Hero() {

@@ -62,7 +62,7 @@ function MobileNavBar({ styles }: { styles: string }) {
                 <IoClose />
               </button>
 
-              <NavBar styles="flex flex-col gap-6 text-2xl h-full mobile-navbar" />
+              <NavBar handleClick={()=> setShowNav(false)} styles="flex flex-col gap-6 text-2xl h-full mobile-navbar" />
 
               <div className="px-4 flex flex-col gap-4">
                 <MyLink

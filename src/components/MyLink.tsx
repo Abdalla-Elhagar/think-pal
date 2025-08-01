@@ -8,7 +8,7 @@ interface LinkProps {
   href:string;
   textColor: string;
   bgColor: string;
-  styles: string;
+  styles?: string;
 };
 
 export default function MyLink({ text, textColor, bgColor, styles , href }: LinkProps) {

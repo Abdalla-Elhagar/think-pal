@@ -1,9 +1,9 @@
 
-import Comments from "@/components/Comments";
-import Features from "@/components/Features";
-import Hero from "@/components/Hero";
-import SignUpSection from "@/components/SignUpSection";
+import Comments from "@/components/HomeComponents/Comments";
+import SignUpSection from "@/components/HomeComponents/SignUpSection";
 import React from 'react'
+import Hero from "./Hero";
+import Features from "./Features";
 
 export default function Landing() {
   return (
