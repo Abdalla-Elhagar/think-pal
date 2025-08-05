@@ -5,7 +5,7 @@ import ourStoryImage from '../../../public/image/AboutPage/ourStory.webp'
 
 export default function OurStory () {
   return (
-    <section className='bg-secondary min-h-screen'>
+    <section className='bg-secondary min-h-screen md:h-screen'>
         <div className="container flex flex-col-reverse text-center lg:text-start lg:flex-row justify-between items-center h-full gap-6 py-6">
             <div className='w-full md:w-[450px] bg-secondary shadow-lg rounded-xl'>
                 <Image src={ourStoryImage} alt="Our Mission Image" className='w-full rounded-xl' />

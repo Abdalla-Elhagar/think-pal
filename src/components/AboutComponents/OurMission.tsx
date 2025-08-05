@@ -4,7 +4,7 @@ import ourMissionImage from '../../../public/image/AboutPage/ourMission.webp'
 
 export default function OurMission() {
   return (
-    <section className=' min-h-screen'>
+    <section className='min-h-screen md:h-screen'>
         <div className="container flex justify-between  items-center h-full flex-col text-center lg:text-start lg:flex-row py-6 gap-4">
             <div className="text w-full md:w-[500px]">
                 <h3 className='text-[30px] font-bold'>Our Mission</h3>
